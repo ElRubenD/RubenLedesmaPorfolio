@@ -1,0 +1,19 @@
+#habilidades{
+    margin-top: 7rem;
+}
+
+.separacion-tercero{
+    width: 40%;
+}
+
+.checks-habilidades .check i, .checks-habilidades .check span{
+    font-size: 2rem;
+}
+
+.check{
+    margin-bottom: 1rem;
+}
+
+.check i {
+    margin-right: 2rem;
+}

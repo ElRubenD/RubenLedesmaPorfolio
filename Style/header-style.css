@@ -1,0 +1,75 @@
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../imagenes/imagen-fondo-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;    
+}
+
+.foto-perfil{
+    width: 10.41vw;
+    height: 20.63vh;
+    border-radius: 50%;
+    background-image: url(../imagenes/imagen\ perfil.PNG);
+    background-size: cover;
+}
+
+h1{
+    font-size: 7rem;
+    color: white;
+}
+
+.boxes-header{
+    display: flex;
+    gap: 3rem;
+}
+
+.box-enlace {
+    width: 10.41vw;;
+    height: 12.38vh;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around
+}
+
+.box-enlace .subtitulo {
+    font-size: 1.8rem;
+    color: black;
+    font-weight: 500;
+}
+
+.box-enlace .imagen-subtitulo{
+    width: 5.2vw;
+    height: 8vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 1rem;
+}
+
+.imagen-sobre-mi{
+    background-image: url(../imagenes/information.png);
+}
+
+.imagen-experiencia{
+    background-image: url(../imagenes/gestion-del-tiempo.png);
+}
+
+.imagen-habilidades{
+    background-image: url(../imagenes/skill-development.png);
+}
+
+.box-enlace:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: 0.3s;
+}
+
+

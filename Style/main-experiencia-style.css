@@ -1,0 +1,40 @@
+#experiencia{
+    margin-top: 7rem;
+}
+
+.box-experiencia i, .box-experiencia .fecha{
+    font-size: 2rem;
+}
+
+.box-experiencia{
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+.lista-experiencia{
+    list-style: none;
+}
+
+.lista-experiencia li{
+    font-size: 1.7rem;
+}
+
+.detalle-experiencia{
+    display: flex;
+    flex-direction: column;
+}
+
+.municipalidad {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.dependencia, .cargo {
+    font-size: 1.7rem;
+}
+
+.cargo{
+    margin-bottom: 0.2rem;
+}
